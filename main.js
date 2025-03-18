@@ -25,5 +25,18 @@ Task 3: Modify the Profile. Make the following updates:
 ● Add a new hobby to the hobbies array.
 Task 4: Display the Updated Profile. Log the entire updated profile to verify the
 changes.
-
 */
+
+// Task 1 Create
+let userProfile = ["Jill Albano", 23, false, { city: "Montgomery" }, ["fishing", "pilates"]];
+
+// Task 2 Access and Log
+console.log(userProfile[0]); // user's name - Jill Albano
+console.log(userProfile[4][1]); // second hobby - pilates
+
+//Task 3 Modify
+userProfile[1] = 37; // update user's age to a new value - 37
+userProfile[4].push("knitting"); // add a new hobby - knitting
+
+// Task 4 Display
+console.log(userProfile);
